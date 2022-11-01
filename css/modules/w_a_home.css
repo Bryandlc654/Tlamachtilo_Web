@@ -170,7 +170,7 @@
   align-items: flex-start;
   height: 30vh;
   padding: 20px 20px 0;
-  background-image: url("/img/TROFEO.png");
+  background-image: url("../img/TROFEO.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
