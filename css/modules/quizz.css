@@ -1,0 +1,156 @@
+/*QUIZZ*/
+.section__quizz {
+  min-height: 635px;
+  align-items: center;
+  display: flex;
+  align-self: stretch;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container__quizz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  text-align: center;
+  min-height: 635px;
+  justify-content: center;
+}
+
+.container__quizz h1{
+  width: 100%;
+  max-width: 650px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #580078;
+  position: absolute;
+  font-weight: 900;
+  top: 58px;
+}
+
+#pantalla-inicial{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  min-height: 635px;
+  gap: 20px;
+}
+#pantalla-inicial img{
+  width: 30%;
+}
+#pantalla-inicial p{
+  font-size: 35px;
+  font-weight: 700;
+}
+#pantalla-inicial .button{
+  margin: 0;
+}
+
+
+
+#pantalla-juego{
+  min-width: 100%;
+  display: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  min-height: 635px;
+  gap: 25px;
+  padding: 50px 0 0 0 ;
+}
+.pantalla-juego img{
+  min-width: 120px;
+  max-width: 150px;
+}
+.pantalla-juego .opciones{
+  width: 100%;
+}
+.opcion{
+  display: flex;
+  position: relative;
+  width: 300px;
+  margin: 12px auto;
+  cursor: pointer;
+}
+.opcion .letra{
+  background-color: #580078;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 35px;
+  border: 5px solid rgb(193, 4, 240);
+  position: relative;
+}
+.opcion .nombre{
+  background: #580078;
+  color: #fff;
+  width: 100%;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 0px;
+  z-index: -2;
+  border-radius:  25px 25px ;
+  padding: 7px 0 7px 30px;
+  text-align: center;
+}
+
+.opcion .nombreAcertada{
+  background-color: rgb(50, 205, 63);
+  color: #fff;
+}
+.opcion .letraAcertada{
+  background-color: rgb(50, 205, 63);
+  color: #fff ;
+}
+
+.opcion .nombreNoAcertada{
+  background-color: rgb(223, 5, 5);
+  color: #fff;
+}
+.opcion .letraNoAcertada{
+  background-color: rgb(223, 5, 5);
+  color: #fff;
+}
+
+
+
+#pantalla-final{
+  display: none;
+  text-align: center;
+  padding: 180px 0 ;
+}
+#pantalla-final #numCorrectas{
+  background-color: chartreuse;
+  display: inline-block;
+  margin: 0 0 0 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+#pantalla-final #numIncorrectas{
+  background-color: rgb(223, 5, 5);
+  display: inline-block;
+  margin: 20px 0 0 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+#pantalla-final button{
+  margin: 20px auto;
+}

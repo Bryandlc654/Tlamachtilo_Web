@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tlamachtilo</title>
+  <link rel="shortcut icon" href="img/guerrero.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <section class="section__quizz">
+    <div class="container__quizz">
+      <nav class="nav__levels">
+        <ul class="container__items-nav">
+          <li><a href="index.html"><span class="material-symbols-outlined">
+            home
+            </span></a></li>
+          <li><a href=""><span class="material-symbols-outlined">
+            menu
+            </span></a></li>
+        </ul>
+      </nav>
+      <h1>QUIZZ NAHUATL</h1>
+
+    <!-- Pantalla inicial -->
+    <div class="pantalla_inicial" id="pantalla-inicial">
+        <p>Sección 1: Saludos</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/8002/8002928.png" alt="">
+        <button class="button" onclick="comenzarJuego()">COMENZAR NIVEL</button>
+        <a href="#seccion2" class="button">SIGUIENTE NIVEL</a>
+    </div>
+    
+    
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego">
+        <img src="img/ad.svg" alt="" id="imgBandera">
+        <div class="opciones">
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+        </div>
+    </div>
+    <!-- Pantalla final -->
+    <div id="pantalla-final">
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
+        <button class="button" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+
+    <ul class="menu__options--levels">
+      <li class="option__levels"><a href="levels.html"><img src="https://cdn-icons-png.flaticon.com/512/3614/3614951.png" alt=""></a></li>
+      <li class="option__levels"><a href="quizz.html"><img src="https://cdn-icons-png.flaticon.com/512/2353/2353677.png" alt=""></a></li>
+      <li class="option__levels"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/609/609752.png" alt=""></a></li>
+      <li class="option__levels"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/3006/3006876.png" alt=""></a></li>
+    </ul>    
+    <script src="js/script.js"></script>
+    </div>
+  </section>
+</html>

@@ -1,0 +1,39 @@
+@import './modules/layout.css';
+@import './modules/nav.css';
+@import './modules/home.css';
+@import './modules/idiomas.css';
+@import './modules/login.css';
+@import './modules/quizz.css';
+@import './modules/w_a_home.css';
+
+
+@import url(//db.onlinewebfonts.com/c/3ecce11ea34c149bb63c0c2ba1cc131d?family=FF+DIN+Round);
+@font-face {
+  font-family: "FF DIN Round"; src: url("//db.onlinewebfonts.com/t/3ecce11ea34c149bb63c0c2ba1cc131d.eot"); 
+  src: url("//db.onlinewebfonts.com/t/3ecce11ea34c149bb63c0c2ba1cc131d.eot?#iefix") 
+  format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ecce11ea34c149bb63c0c2ba1cc131d.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/3ecce11ea34c149bb63c0c2ba1cc131d.woff") 
+  format("woff"), url("//db.onlinewebfonts.com/t/3ecce11ea34c149bb63c0c2ba1cc131d.ttf") 
+  format("truetype"), url("//db.onlinewebfonts.com/t/3ecce11ea34c149bb63c0c2ba1cc131d.svg#FF DIN Round") format("svg"); }
+
+:root{
+  --onetrust-banner-height:0px;
+  --background-color: #43046d;
+  --text-color: #fff;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "FF DIN Round";
+}
+
+
+
+

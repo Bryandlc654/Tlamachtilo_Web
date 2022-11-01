@@ -1,0 +1,235 @@
+.background_screen{
+  height: 100vh;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.container_top ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: flex-start;
+  height: 70px;
+  padding: 20px 20px 0;
+}
+.container_top span{
+  color: #000;
+  font-size: 35px;
+}
+
+.container_top img{
+  width: 40px;
+}
+.container_user{
+  padding: 0 20px;
+}
+.container_user h3{
+  font-size: 30px;
+}
+.container_user p{
+  color: rgb(97, 97, 97);
+}
+
+.container_cards{
+  display: grid;
+  padding: 30px;
+  grid-auto-flow: column;
+  gap: 1rem;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding: 30px ;
+  margin: 0 0 0 20px;
+}
+.container_cards > a{
+  scroll-snap-align: start;
+}
+.container_cards img{
+  width: 300px;
+  object-fit: contain;
+  border-radius: 30px;
+}
+.container_cards::-webkit-scrollbar{
+  display: none;
+}
+
+.container_history{
+  padding: 0 20px;
+}
+.container_history h4{
+  font-size: 20px;
+}
+
+.card_video{
+  width: 100%;
+  height: 65px;
+  border: 1.7px solid #9e03758b;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_video .video_title h5{
+  font-size: 15px;
+}
+.card_video .video_title p{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(97, 97, 97);
+}
+
+.container_button_video a{
+  text-decoration: none;
+}
+.container_button_video span{
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9e0375;
+  border-radius: 50%;
+}
+
+.container_games{
+  padding: 0 20px;
+}
+.container_games h4{
+  font-size: 20px;
+}
+
+.card_games{
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.start{
+  display: flex;
+}
+.quizz{
+  background-color: #ff04bc54;
+}
+.card_games .game_title h5{
+  font-size: 18px;
+  color: #000;
+}
+.card_games .game_title p{
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(97, 97, 97);
+}
+.icon_game{
+  width: 50px;
+  height: 50px;
+  background-color: #fc72d7;
+  margin: 0 20px 0 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon_game img{
+  width: 40px;
+}
+.card_games span{
+  color: #fff;
+  font-size: 40px;
+}
+.memory_card{
+  background-color: #1100ff47;
+}
+.memory{
+  background-color: #7b72fc;
+}
+
+
+/*N_UNO*/
+
+.background_screen_l_one{
+  height: 100vh;
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: #45009e;
+}
+.container_top_l_one ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: flex-start;
+  height: 30vh;
+  padding: 20px 20px 0;
+  background-image: url("/img/TROFEO.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container_top_l_one span{
+  color: #fff;
+  font-size: 35px;
+}
+
+.container_top_l_one img{
+  width: 40px;
+}
+
+.container_level_one{
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  height: auto;
+  border-radius: 30px 30px 0 0;
+  padding: 30px 20px 0;
+}
+.container_level_one h3{
+  font-size: 28px;
+}
+.container_level_one p{
+  font-size: 15px;
+  color: rgb(97, 97, 97);
+  line-height: 1.5;
+  width: 90%;
+  margin: 15px auto 20px;
+}
+hr{
+  height: 1px;
+  background-color:rgb(97, 97, 97) ;
+}
+
+.container__cards--levels{
+  width: 100%;
+  margin: 20px 0 ;
+}
+
+.button__level{
+  border-radius: 20px;
+  width: 65%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e6e6e663;
+  margin: 20px auto;
+  font-size: 25px;
+  font-weight: 800;
+  color: #2f016b;
+  font-family: "FF DIN Round";
+  gap: 5px;
+}
+
+.button__level img{
+  width: 32%;
+}

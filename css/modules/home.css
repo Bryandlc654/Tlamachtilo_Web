@@ -1,0 +1,146 @@
+.home {
+  align-items: center;
+  display: flex;
+  min-height: calc(100vh - var(--onetrust-banner-height, 0px));
+  position: relative;
+  z-index: 1;
+}
+.background__home {
+  background-color: var(--background-color);
+  background-image: url(https://d35aaqx5ub95lt.cloudfront.net/images/4986531ca822d48e57b4a18f40ff5172.svg);
+}
+
+.container__home {
+  align-items: center;
+  display: flex;
+  margin: 12px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.container__image {
+  background-image: url("https://i.postimg.cc/gJG1KTsM/mexico.png");
+  background-size: 360px;
+  height: 360px;
+  min-width: 360px;
+  width: 360px;
+}
+
+.container__home-subtitle {
+  margin: auto 48px;
+  width: 60%;
+}
+.container__home-subtitle h1 {
+  color: var(--text-color);
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0 0 50px;
+}
+
+.container__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  cursor: pointer;
+  min-width: 320px;
+  max-width: 320px;
+  height: 50px;
+  margin: 0 0 0.8rem 0;
+  background-color:var(--button-register,rgb(255, 0, 191)) ;
+  border-radius: 0.5rem;
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 5px solid #3b0133;
+  align-items: center;
+  font-weight: 700;
+  justify-content: center;
+}
+.button:hover {
+  background-color: rgb(252, 0, 126);
+}
+
+.button__login {
+  background-color: #5d0299;
+  border-bottom: 5px solid #2c0347;
+}
+.button__login:hover {
+  background-color: #8609da;
+}
+
+.container__phrase {
+  background: #5d0299;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.container__text--phrase {
+  color: #fff;
+  display: flex;
+  height: 74px;
+  width: 1004px;
+  margin: 0 auto;
+}
+.container__text--phrase div {
+  margin: 17px auto;
+  max-width: 924px;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+}
+.container__text--phrase div ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container__text--phrase div li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin: 0 1rem;
+}
+.container__text--phrase div img{
+  width: 2.8rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 1065px) {
+  .container__home {
+    flex-direction: column;
+    padding: 24px 12px;
+    width: 100%;
+  }
+  .container__image {
+    background-size: 192px;
+    height: 192px;
+    min-width: 192px;
+    width: 192px;
+    margin-bottom: 24px;
+  }
+  .container__home-subtitle {
+    margin: 12px auto 0;
+    width: 100%;
+  }
+  .container__home-subtitle h1 {
+    margin-bottom: 24px;
+  }
+  .container__phrase{
+    display: none;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 981px) {
+  .link__institute {
+    display: none;
+    visibility: hidden;
+  }
+  .container__home-subtitle {
+    margin: auto 24px;
+  }
+}

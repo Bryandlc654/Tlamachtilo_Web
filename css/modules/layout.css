@@ -1,0 +1,12 @@
+.section {
+  max-height: 1080px;
+}
+
+@media screen and (max-width:1065px){
+  .section{
+    min-height: calc(100vh - var(--onetrust-banner-height, 0px) - 50px);
+    overflow: hidden;
+    padding: 48px 0;
+  }
+}
+
