@@ -221,7 +221,7 @@ hr{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #e6e6e663;
+  background-color: #ffffff;
   margin: 20px auto;
   font-size: 25px;
   font-weight: 800;
@@ -231,5 +231,11 @@ hr{
 }
 
 .button__level img{
-  width: 32%;
+  width: 40%;
+}
+
+@media screen and (max-width: 450px) {
+  .button__level img{
+    width: 55%;
+  }
 }
