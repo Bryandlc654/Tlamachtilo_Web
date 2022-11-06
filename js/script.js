@@ -1,5 +1,5 @@
 //cargo en un arreglo las imganes de las banderas. Este sera el orden que se mostrarán
-let banderas = ["bienvenido.png", "buenasnoches.png", "Buenodias.png", "gracias.png", "hola.png"];
+let banderas = ["bienvenido.png", "buenasnoches.png", "buendia.png", "gracias.png", "hola.png"];
 
 //arreglo que guardara la opcion correcta
 let correcta = [2,2,1,1,0];

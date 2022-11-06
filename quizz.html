@@ -10,26 +10,37 @@
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <section class="section__quizz">
-    <div class="container__quizz">
-      <nav class="nav__levels">
-        <ul class="container__items-nav">
-          <li><a href="index.html"><span class="material-symbols-outlined">
-            home
-            </span></a></li>
-          <li><a href=""><span class="material-symbols-outlined">
-            menu
-            </span></a></li>
+  <section class="background_screen">
+    
+      <nav class="container_top">
+        <ul>
+          <li class="dropdown">
+            <a class="dropbtn" href="#">
+              <span class="material-symbols-outlined"> sort </span>
+            </a>
+            <div class="dropdown-content">
+              <a href="#"> Inicio </a>
+              <a href="#"> Sobre nosotros </a>
+              <a href="#"> Quizz </a>
+              <a href="#"> Memory </a>
+            </div>
+          </li>
+          <li class="dropdown-cuenta">
+            <a class="dropbtn" href="#">
+              <img src="img/mujer.png" alt="mujer" />
+            </a>
+            <div class="dropdown-content">
+              <a href="#"> Mi cuenta </a>
+              <a href="#">Salir </a>
+            </div>
+          </li>
         </ul>
       </nav>
-      <h1>QUIZZ NAHUATL</h1>
-
     <!-- Pantalla inicial -->
     <div class="pantalla_inicial" id="pantalla-inicial">
-        <p>Sección 1: Saludos</p>
+        <p>Quizz Nahuatl</p>
         <img src="https://cdn-icons-png.flaticon.com/512/8002/8002928.png" alt="">
-        <button class="button" onclick="comenzarJuego()">COMENZAR NIVEL</button>
-        <a href="#seccion2" class="button">SIGUIENTE NIVEL</a>
+        <button class="button" onclick="comenzarJuego()">COMENZAR AHORA</button>
     </div>
     
     
@@ -56,16 +67,9 @@
     <div id="pantalla-final">
         <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
         <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
-        <button class="button" onclick="volverAlInicio()">VOLVER AL INICIO</button>
-    </div>
-
-    <ul class="menu__options--levels">
-      <li class="option__levels"><a href="levels.html"><img src="https://cdn-icons-png.flaticon.com/512/3614/3614951.png" alt=""></a></li>
-      <li class="option__levels"><a href="quizz.html"><img src="https://cdn-icons-png.flaticon.com/512/2353/2353677.png" alt=""></a></li>
-      <li class="option__levels"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/609/609752.png" alt=""></a></li>
-      <li class="option__levels"><a href=""><img src="https://cdn-icons-png.flaticon.com/512/3006/3006876.png" alt=""></a></li>
-    </ul>    
-    <script src="js/script.js"></script>
+        <a href="webapp_home.html" class="button">VOLVER A INICIO</a>
+        
     </div>
   </section>
+  <script src="js/script.js"></script>
 </html>

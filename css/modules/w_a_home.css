@@ -13,6 +13,55 @@
   height: 70px;
   padding: 20px 20px 0;
 }
+
+.dropbtn {
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-cuenta {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  min-height: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-cuenta .dropdown-content {
+  right: 0;
+  min-width: 180px;
+  min-height: 100px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-cuenta:hover .dropdown-content {
+  display: block;
+}
+
 .container_top span{
   color: #000;
   font-size: 35px;
@@ -21,12 +70,15 @@
 .container_top img{
   width: 40px;
 }
+
 .container_user{
   padding: 0 20px;
 }
+
 .container_user h3{
   font-size: 30px;
 }
+
 .container_user p{
   color: rgb(97, 97, 97);
 }
@@ -43,21 +95,21 @@
   padding: 30px ;
   margin: 0 0 0 20px;
 }
+
 .container_cards > a{
   scroll-snap-align: start;
 }
+
 .container_cards img{
   width: 300px;
   object-fit: contain;
   border-radius: 30px;
 }
-.container_cards::-webkit-scrollbar{
-  display: none;
-}
 
 .container_history{
   padding: 0 20px;
 }
+
 .container_history h4{
   font-size: 20px;
 }
@@ -73,9 +125,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .card_video .video_title h5{
   font-size: 15px;
 }
+
 .card_video .video_title p{
   font-size: 12px;
   font-weight: 600;
@@ -85,6 +139,7 @@
 .container_button_video a{
   text-decoration: none;
 }
+
 .container_button_video span{
   color: #fff;
   width: 45px;
@@ -99,6 +154,7 @@
 .container_games{
   padding: 0 20px;
 }
+
 .container_games h4{
   font-size: 20px;
 }
@@ -114,21 +170,26 @@
   text-decoration: none;
   justify-content: space-between;
 }
+
 .start{
   display: flex;
 }
+
 .quizz{
   background-color: #ff04bc54;
 }
+
 .card_games .game_title h5{
   font-size: 18px;
   color: #000;
 }
+
 .card_games .game_title p{
   font-size: 14px;
   font-weight: 600;
   color: rgb(97, 97, 97);
 }
+
 .icon_game{
   width: 50px;
   height: 50px;
@@ -139,29 +200,33 @@
   align-items: center;
   justify-content: center;
 }
+
 .icon_game img{
   width: 40px;
 }
+
 .card_games span{
   color: #fff;
   font-size: 40px;
 }
+
 .memory_card{
   background-color: #1100ff47;
 }
+
 .memory{
   background-color: #7b72fc;
 }
 
 
-/*N_UNO*/
-
+/*NIVELES*/
 .background_screen_l_one{
   height: 100vh;
   max-width: 650px;
   margin: 0 auto;
   background-color: #45009e;
 }
+
 .container_top_l_one ul{
   width: 100%;
   display: flex;
@@ -193,9 +258,11 @@
   border-radius: 30px 30px 0 0;
   padding: 30px 20px 0;
 }
+
 .container_level_one h3{
   font-size: 28px;
 }
+
 .container_level_one p{
   font-size: 15px;
   color: rgb(97, 97, 97);
@@ -203,6 +270,7 @@
   width: 90%;
   margin: 15px auto 20px;
 }
+
 hr{
   height: 1px;
   background-color:rgb(97, 97, 97) ;
@@ -237,5 +305,8 @@ hr{
 @media screen and (max-width: 450px) {
   .button__level img{
     width: 55%;
+  }
+  .container_cards::-webkit-scrollbar{
+    display: none;
   }
 }
