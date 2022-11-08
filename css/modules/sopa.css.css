@@ -1,0 +1,112 @@
+
+
+/**
+* Wordfind.js 0.0.1
+* (c) 2012 Bill, BunKat LLC.
+* Wordfind is freely distributable under the MIT license.
+* For all details and documentation:
+*     http://github.com/bunkat/wordfind
+*/
+
+p {
+  font: 22pt sans-serif;
+  margin: 20px 20px 0px 20px;
+  
+}
+
+/**
+* Styles for the puzzle
+*/
+#juego {
+  border: 1px solid rgb(255, 253, 253);
+  padding: 20px;
+  float: left;
+  margin: 30px 20px;
+}
+
+#juego div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* style for each square in the puzzle */
+#juego .puzzleSquare {
+  height: 30px;
+  width: 30px;
+  text-transform: uppercase;
+  background-color: rgb(189, 159, 189);
+  border: 0;
+  font: 1em sans-serif;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* indicates when a square has been selected */
+#juego .selected {
+  background-color: rgb(245, 13, 141);
+}
+
+/* indicates that the square is part of a word that has been found */ 
+#juego .found {
+  background-color: rgb(146, 63, 163);
+  color: white;
+}
+
+#juego .solved {
+  background-color: rgb(170, 60, 170);
+  color: white;
+}
+
+/* indicates that all words have been found */
+#juego .complete {
+  background-color: rgb(255, 255, 255);
+}
+
+/**
+* Styles for the word list
+*/
+#Palabras {
+  padding-top: 20px;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
+  width: 300px;
+}
+
+#Palabras ul {
+  list-style-type: none;
+  color: aliceblue;
+}
+
+#Palabras li {
+  padding: 3px 0;
+  font: 1em sans-serif;
+  color: aliceblue;
+}
+
+/* indicates that the word has been found */
+#Palabras .wordFound {
+  text-decoration: line-through;
+  color: rgb(248, 237, 237);
+}
+
+/**
+* Styles for the button
+*/
+#solve {
+  margin: 0 30px;
+  background-color: rgb(245, 10, 213);
+}
+
+h1{
+    color: aliceblue;
+}
+h2{
+    color: aliceblue;
+    
+}

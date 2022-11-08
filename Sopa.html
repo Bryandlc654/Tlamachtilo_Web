@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sopa de letras</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="js/wordfind.js"></script>
+    <script type="text/javascript" src="js/wordfindgame.js"></script>
+  </head>
+
+  <body>
+
+    <section class="background_screen_l_one">
+      <div class="container_top_l_one">
+        <ul>
+          <li class="dropdown">
+            <a class="dropbtn" href="#">
+              <span class="material-symbols-outlined">
+                sort
+              </span>
+            </a>
+            <div class="dropdown-content">
+              <a href="#"> Inicio </a>
+              <a href="#"> Sobre nosotros </a>
+              <a href="#"> Quizz </a>
+              <a href="#"> Memory </a>
+            </div>
+          </li>
+          <li><a href="webapp_home.html"><span class="material-symbols-outlined">
+            <span class="material-symbols-outlined">
+              logout
+              </span>
+            </span></a></li>
+        </ul>
+      </div>
+
+      <h1>SOPA DE LETRAS</h1>
+    <h2>
+      En el idioma náhuatl los números tienen una manera particular de
+      escribirse, localiza los numeros del uno al diez en esta sopa de letras.
+    </h2>
+    <div id="juego"></div>
+    <div id="Palabras"></div>
+
+    <div><button id="solve">Resolver</button></div>
+
+    <script>
+      var words = [
+        "Se",
+        "ome",
+        "Eyi",
+        "Nawi",
+        "Makuilli",
+        "chikuase",
+        "chikome",
+        "chikueyi",
+        "chiknawi",
+        "mahtlaktli",
+      ];
+      var gamePuzzle = wordfindgame.create(words, "#juego", "#Palabras");
+
+      var puzzle = wordfind.newPuzzle(words, {
+        height: 18,
+        width: 18,
+        fillBlanks: false,
+      });
+      wordfind.print(puzzle);
+
+      $("#solve").click(function () {
+        wordfindgame.solve(gamePuzzle, words);
+      });
+    </script>
+
+    </section>
+    
+  </body>
+</html>
