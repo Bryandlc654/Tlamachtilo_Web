@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sopa de letras</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tlamachtilo</title>
+    <link rel="shortcut icon" href="img/guerrero.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="css/index.css" />
     <script
       language="javascript"
       type="text/javascript"
@@ -13,69 +21,70 @@
   </head>
 
   <body>
-
     <section class="background_screen_l_one">
-      <div class="container_top_l_one">
+      <div class="container_top_l_one sopa_btn">
         <ul>
           <li class="dropdown">
             <a class="dropbtn" href="#">
-              <span class="material-symbols-outlined">
-                sort
-              </span>
+              <span class="material-symbols-outlined"> sort </span>
             </a>
             <div class="dropdown-content">
-              <a href="#"> Inicio </a>
+              <a href="webapp_home.html"> Inicio </a>
               <a href="#"> Sobre nosotros </a>
-              <a href="#"> Quizz </a>
-              <a href="#"> Memory </a>
+              <a href="quizz.html"> Quizz </a>
+              <a href="#"> Sopa de letras </a>
             </div>
           </li>
-          <li><a href="webapp_home.html"><span class="material-symbols-outlined">
-            <span class="material-symbols-outlined">
-              logout
-              </span>
-            </span></a></li>
+          <li>
+            <a href="webapp_home.html"
+              ><span class="material-symbols-outlined">
+                <span class="material-symbols-outlined"> logout </span>
+              </span></a
+            >
+          </li>
         </ul>
       </div>
 
-      <h1>SOPA DE LETRAS</h1>
-    <h2>
-      En el idioma náhuatl los números tienen una manera particular de
-      escribirse, localiza los numeros del uno al diez en esta sopa de letras.
-    </h2>
-    <div id="juego"></div>
-    <div id="Palabras"></div>
+      <div class="container_juego">
+        <h2>
+          En el idioma náhuatl los números tienen una manera particular de
+          escribirse, localiza los numeros del uno al diez en esta sopa de letras.
+        </h2>
+        <div id="juego"></div>
+        <div class="letras_solve">
+          <div id="Palabras"></div>
+        <div><button id="solve">Resolver</button></div>
+        </div>
+        
+        <br>
+      </div>
 
-    <div><button id="solve">Resolver</button></div>
+      <script>
+        var words = [
+          "Se",
+          "ome",
+          "Eyi",
+          "Nawi",
+          "Makuilli",
+          "chikuase",
+          "chikome",
+          "chikueyi",
+          "chiknawi",
+          "mahtlaktli",
+        ];
+        var gamePuzzle = wordfindgame.create(words, "#juego", "#Palabras");
 
-    <script>
-      var words = [
-        "Se",
-        "ome",
-        "Eyi",
-        "Nawi",
-        "Makuilli",
-        "chikuase",
-        "chikome",
-        "chikueyi",
-        "chiknawi",
-        "mahtlaktli",
-      ];
-      var gamePuzzle = wordfindgame.create(words, "#juego", "#Palabras");
+        var puzzle = wordfind.newPuzzle(words, {
+          height: 18,
+          width: 18,
+          fillBlanks: false,
+        });
+        wordfind.print(puzzle);
 
-      var puzzle = wordfind.newPuzzle(words, {
-        height: 18,
-        width: 18,
-        fillBlanks: false,
-      });
-      wordfind.print(puzzle);
-
-      $("#solve").click(function () {
-        wordfindgame.solve(gamePuzzle, words);
-      });
-    </script>
-
+        $("#solve").click(function () {
+          wordfindgame.solve(gamePuzzle, words);
+        });
+      </script>
     </section>
-    
   </body>
 </html>

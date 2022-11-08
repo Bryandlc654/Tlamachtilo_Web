@@ -20,7 +20,21 @@
   border: none;
   cursor: pointer;
 }
-
+.logo_dropdown{
+  display: flex;
+  align-items: center;
+  cursor: none;
+  height: 50px;
+  padding: 0 20px;
+}
+.dropdown-content img{
+  width: 80%;
+  margin: 0 15px 0 0 ;
+}
+.dropdown-content a span{
+  font-size: 16px;
+  color: #8f8f8f;
+}
 .dropdown {
   position: relative;
   display: inline-block;
@@ -33,9 +47,10 @@
 .dropdown-content {
   display: none;
   position: absolute;
+  z-index: 100;
   background-color: #f9f9f9;
-  min-width: 180px;
-  min-height: 200px;
+  min-width: 240px;
+  min-height: 80vh;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .dropdown-cuenta .dropdown-content {
@@ -224,7 +239,6 @@
   height: 100vh;
   max-width: 650px;
   margin: 0 auto;
-  background-color: #45009e;
 }
 
 .container_top_l_one ul{
