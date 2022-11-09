@@ -239,6 +239,7 @@
   height: 100vh;
   max-width: 650px;
   margin: 0 auto;
+  background-color: #2f016b;
 }
 
 .container_top_l_one ul{
@@ -314,6 +315,9 @@ hr{
 
 .button__level img{
   width: 40%;
+}
+.bac_white{
+  background-color: #fff;
 }
 
 @media screen and (max-width: 450px) {

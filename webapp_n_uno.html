@@ -1,75 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tlamachtilo</title>
-  <link rel="shortcut icon" href="img/guerrero.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-  <section class="background_screen_l_one">
-    <div class="container_top_l_one">
-      <ul>
-        <li class="dropdown">
-          <a class="dropbtn" href="#">
-            <span class="material-symbols-outlined">
-              sort
-            </span>
-          </a>
-          <div class="dropdown-content">
-            <a href="webapp_home.html"> Inicio </a>
-            <a href="#"> Sobre nosotros </a>
-            <a href="#"> Quizz </a>
-            <a href="#"> Memory </a>
-          </div>
-        </li>
-        <li><a href="webapp_home.html"><span class="material-symbols-outlined">
-          <span class="material-symbols-outlined">
-            logout
-            </span>
-          </span></a></li>
-      </ul>
-    </div>
-    <div class="container_level_one">
-      <h3>Nivel 1</h3>
-      <p>En esta sección aprenderemos los <b>saludos</b>  en Nahuatl, como Hola, Buenos Días entre otros.
-        Luego puedes poner a prueba tus conocimientos con nuestro Quizz Tlamachtilo <br>
-        Presiona la tarjeta y reproduce el audio
-      </p>
-      <hr>
-
-      <div class="container__cards--levels">
-        <button class="button__level" onclick="sound1.play()"><img src="./img/level1/Hola.webp" alt="">Hola
-        </button>
-        <button href="#" class="button__level" onclick="sound2.play()"><img src="./img/level1/buendia.webp" alt="">Buenos dias
-        </button>
-        <button href="#" class="button__level" onclick="sound3.play()"><img src="./img/level1/buenastardes.webp" alt="">Buenas Tardes
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/buenasnoches.webp" alt="">Buenas Noches
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/comoestas.webp" alt="">Como estas
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/quehaces.webp" alt="">Que haces
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/dondevas.webp" alt="">Donde vas
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/bienvenido.webp" alt="">Bienvenido
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/gracias.webp" alt="">Gracias
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/hastalaproxima.webp" alt="">Hasta la proxima semana
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/hastamañana.webp" alt="">Hasta mañana
-        </button>
-        <button href="#" class="button__level" onclick="sound4.play()"><img src="./img/level1/luegonosvemos.webp" alt="">Luego nos vemos
-        </button>
-        <br>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tlamachtilo</title>
+    <link rel="shortcut icon" href="img/guerrero.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <section class="background_screen_l_one">
+      <div class="container_top_l_one">
+        <ul>
+          <li class="dropdown">
+            <a class="dropbtn" href="#">
+              <span class="material-symbols-outlined"> sort </span>
+            </a>
+            <div class="dropdown-content">
+              <div class="logo_dropdown">
+                <img src="img/guerrero.png" alt="" />
+                <h3>Tlamachtilo</h3>
+              </div>
+              <a href="webapp_home.html">Inicio </a>
+              <a href="#"> Sobre nosotros </a>
+              <a href="quizz.html"> Quizz </a>
+              <a href="#"> Sopa de Letras </a>
+            </div>
+          </li>
+          <li class="dropdown-cuenta">
+            <a href="webapp_home.html">
+              <span class="material-symbols-outlined"> logout</span>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </section>
-  <script src="js/audios.js"></script>
-</body>
+      <div class="container_level_one">
+        <h3>Nivel 1</h3>
+        <p>
+          En esta sección aprenderemos los <b>saludos</b> en Nahuatl, como Hola,
+          Buenos Días entre otros. Luego puedes poner a prueba tus conocimientos
+          con nuestro Quizz Tlamachtilo <br />
+          Presiona la tarjeta y reproduce el audio
+        </p>
+        <hr />
+
+        <div class="container__cards--levels">
+          <button class="button__level" onclick="sound1_1.play()">
+            <img src="./img/level1/Hola.webp" alt="" />Hola
+          </button>
+          <button href="#" class="button__level" onclick="sound1_2.play()">
+            <img src="./img/level1/buendia.webp" alt="" />Buenos dias
+          </button>
+          <button href="#" class="button__level" onclick="sound1_3.play()">
+            <img src="./img/level1/buenastardes.webp" alt="" />Buenas Tardes
+          </button>
+          <button href="#" class="button__level" onclick="sound1_4.play()">
+            <img src="./img/level1/buenasnoches.webp" alt="" />Buenas Noches
+          </button>
+          <button href="#" class="button__level" onclick="sound1_5.play()">
+            <img src="./img/level1/comoestas.webp" alt="" />Como estas
+          </button>
+          <button href="#" class="button__level" onclick="sound1_6.play()">
+            <img src="./img/level1/quehaces.webp" alt="" />Que haces
+          </button>
+          <button href="#" class="button__level" onclick="sound1_7.play()">
+            <img src="./img/level1/dondevas.webp" alt="" />Donde vas
+          </button>
+          <button href="#" class="button__level" onclick="sound1_8.play()">
+            <img src="./img/level1/bienvenido.webp" alt="" />Bienvenido
+          </button>
+          <button href="#" class="button__level" onclick="sound1_9.play()">
+            <img src="./img/level1/gracias.webp" alt="" />Gracias
+          </button>
+          <button href="#" class="button__level" onclick="sound1_10.play()">
+            <img src="./img/level1/hastalaproxima.webp" alt="" />Hasta la
+            proxima semana
+          </button>
+          <button href="#" class="button__level" onclick="sound1_11.play()">
+            <img src="./img/level1/hastamañana.webp" alt="" />Hasta mañana
+          </button>
+          <button href="#" class="button__level" onclick="sound1_12.play()">
+            <img src="./img/level1/luegonosvemos.webp" alt="" />Luego nos vemos
+          </button>
+          <br />
+        </div>
+      </div>
+    </section>
+    <script src="js/audios.js"></script>
+  </body>
 </html>

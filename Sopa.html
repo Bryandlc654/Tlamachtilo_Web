@@ -21,31 +21,35 @@
   </head>
 
   <body>
-    <section class="background_screen_l_one">
-      <div class="container_top_l_one sopa_btn">
+    <section class="background_screen_l_one bac_white">
+      <nav class="container_top">
         <ul>
           <li class="dropdown">
             <a class="dropbtn" href="#">
               <span class="material-symbols-outlined"> sort </span>
             </a>
             <div class="dropdown-content">
-              <a href="webapp_home.html"> Inicio </a>
+              <div class="logo_dropdown"><img src="img/guerrero.png" alt=""><h3>Tlamachtilo</h3></div>
+              <a href="webapp_home.html">Inicio </a>
               <a href="#"> Sobre nosotros </a>
               <a href="quizz.html"> Quizz </a>
-              <a href="#"> Sopa de letras </a>
+              <a href="#"> Sopa de Letras </a>
             </div>
           </li>
-          <li>
-            <a href="webapp_home.html"
-              ><span class="material-symbols-outlined">
-                <span class="material-symbols-outlined"> logout </span>
-              </span></a
-            >
+          <li class="dropdown-cuenta">
+            <a class="dropbtn" href="#">
+              <img src="img/mujer.webp" alt="mujer" />
+            </a>
+            <div class="dropdown-content">
+              <a href="#"> Mi cuenta </a>
+              <a href="#">Salir </a>
+            </div>
           </li>
         </ul>
-      </div>
+      </nav>
 
       <div class="container_juego">
+        <h1>Sopa de Letras</h1>
         <h2>
           En el idioma náhuatl los números tienen una manera particular de
           escribirse, localiza los numeros del uno al diez en esta sopa de letras.
@@ -55,8 +59,7 @@
           <div id="Palabras"></div>
         <div><button id="solve">Resolver</button></div>
         </div>
-        
-        <br>
+
       </div>
 
       <script>
