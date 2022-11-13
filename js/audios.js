@@ -230,3 +230,35 @@ sound6_11.src = "./sounds/level6/.mp3" /* falta serpiente */
 
 var sound6_12 = new Audio();
 sound6_12.src = "./sounds/level6/Venado.mp3"
+
+
+/* NIVEL 7 */
+var sound7_1 = new Audio();
+sound7_1.src = "./sounds/level7/Amarillo.mp3";
+
+var sound7_2 = new Audio();
+sound7_2.src = "./sounds/level7/Azul.mp3"
+
+var sound7_3 = new Audio();
+sound7_3.src = "./sounds/level7/Blanco.mp3"
+
+var sound7_4 = new Audio();
+sound7_4.src = "./sounds/level7/Café.mp3"
+
+var sound7_5 = new Audio();
+sound7_5.src = "./sounds/level7/Gris.mp3"
+
+var sound7_6 = new Audio();
+sound7_6.src = "./sounds/level7/Morado.mp3"
+
+var sound7_7 = new Audio();
+sound7_7.src = "./sounds/level7/Naranja.mp3"
+
+var sound7_8 = new Audio();
+sound7_8.src = "./sounds/level7/Negro.mp3"
+
+var sound7_9 = new Audio();
+sound7_9.src = "./sounds/level7/Rojo.mp3"
+
+var sound7_10 = new Audio();
+sound7_10.src = "./sounds/level7/Verde.mp3"
