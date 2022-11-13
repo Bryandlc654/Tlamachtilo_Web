@@ -114,7 +114,7 @@ sound3_12.src = "./sounds/level3/Uña.mp3"
 
 /* NIVEL 4 */
 var sound4_1 = new Audio();
-sound4_1.src = "./sounds/level4/";
+sound4_1.src = "./sounds/level4/"; /* falta arete */
 
 var sound4_2 = new Audio();
 sound4_2.src = "./sounds/level4/Botella.m4a"
@@ -192,3 +192,41 @@ sound5_13.src = "./sounds/level5/Tia.mp3"
 
 var sound5_14 = new Audio();
 sound5_14.src = "./sounds/level5/Tio.mp3"
+
+
+/* NIVEL 6 */
+var sound6_1 = new Audio();
+sound6_1.src = "./sounds/level6/aguila.mp3";
+
+var sound6_2 = new Audio();
+sound6_2.src = "./sounds/level6/Araña.mp3"
+
+var sound6_3 = new Audio();
+sound6_3.src = "./sounds/level6/Armadillo.mp3"
+
+var sound6_4 = new Audio();
+sound6_4.src = "./sounds/level6/Búho.mp3"
+
+var sound6_5 = new Audio();
+sound6_5.src = "./sounds/level6/Conejo.mp3"
+
+var sound6_6 = new Audio();
+sound6_6.src = "./sounds/level6/Gato.mp3"
+
+var sound6_7 = new Audio();
+sound6_7.src = "./sounds/level6/mono.mp3"
+
+var sound6_8 = new Audio();
+sound6_8.src = "./sounds/level6/Perro.mp3"
+
+var sound6_9 = new Audio();
+sound6_9.src = "./sounds/level6/Rana.mp3"
+
+var sound6_10 = new Audio();
+sound6_10.src = "./sounds/level6/Ratón.mp3"
+
+var sound6_11 = new Audio();
+sound6_11.src = "./sounds/level6/.mp3" /* falta serpiente */
+
+var sound6_12 = new Audio();
+sound6_12.src = "./sounds/level6/Venado.mp3"
