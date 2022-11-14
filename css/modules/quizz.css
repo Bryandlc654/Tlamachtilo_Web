@@ -93,6 +93,7 @@
   line-height: 35px;
   border: 5px solid rgb(193, 4, 240);
   position: relative;
+  z-index: -1;
 }
 .opcion .nombre{
   background: #580078;

@@ -1,5 +1,5 @@
 //cargo en un arreglo las imganes de las banderas. Este sera el orden que se mostrarán
-let banderas = ["bienvenido.webp", "buenasnoches.webp", "buendia.webp", "gracias.webp", "Hola.webp"];
+let banderas = ["perro.webp", "bisabuelo.webp", "buendia.webp", "gracias.webp", "ropa.webp"];
 
 //arreglo que guardara la opcion correcta
 let correcta = [2,2,1,1,0];
@@ -7,11 +7,11 @@ let correcta = [2,2,1,1,0];
 //arreglo que guardara los paises a mostrar en cada jugada
 let opciones = [];
 //cargo en el arreglo opciones las opciones a mostrar en cada jugada
-opciones.push(["COMO ESTAS", "HOLA", "BIENVENIDO"]);
-opciones.push(["GRACIAS", "QUE HACES", "BUENAS NOCHES"]);
+opciones.push(["MONO", "GATO", "PERRO"]);
+opciones.push(["ABUELO", "HERMANO", "BISABUELO"]);
 opciones.push(["HOLA", "BUENOS DIAS", "HASTA MAÑANA"]);
 opciones.push(["HOLA", "GRACIAS", "COMO ESTAS"]);
-opciones.push(["HOLA", "ADIOS", "COMO ESTAS"]);
+opciones.push(["ROPA", "TENDEDERO", "ARMARIO"]);
 
 //variable que guarda la posicion actual
 let posActual = 0;

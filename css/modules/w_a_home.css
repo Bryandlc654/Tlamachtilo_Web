@@ -3,89 +3,6 @@
   max-width: 650px;
   margin: 0 auto;
 }
-
-.container_top ul{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  align-items: flex-start;
-  height: 70px;
-  padding: 20px 20px 0;
-}
-
-.dropbtn {
-  color: white;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-.logo_dropdown{
-  display: flex;
-  align-items: center;
-  cursor: none;
-  height: 50px;
-  padding: 0 20px;
-}
-.dropdown-content img{
-  width: 80%;
-  margin: 0 15px 0 0 ;
-}
-.dropdown-content a span{
-  font-size: 16px;
-  color: #8f8f8f;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-.dropdown-cuenta {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 100;
-  background-color: #f9f9f9;
-  min-width: 240px;
-  min-height: 80vh;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropdown-cuenta .dropdown-content {
-  right: 0;
-  min-width: 180px;
-  min-height: 100px;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.dropdown-cuenta:hover .dropdown-content {
-  display: block;
-}
-
-.container_top span{
-  color: #000;
-  font-size: 35px;
-}
-
-.container_top img{
-  width: 40px;
-}
-
 .container_user{
   padding: 0 20px;
 }
@@ -242,23 +159,26 @@
   background-color: #2f016b;
 }
 
-.container_top_l_one ul{
+.container_top_l_one {
   width: 100%;
   display: flex;
   justify-content: space-between;
   list-style: none;
   align-items: flex-start;
   height: 30vh;
-  padding: 20px 20px 0;
-  background-image: url('https://i.postimg.cc/q7hXY7qX/TROFEO.png');
+
+  background-image: url(/img/TROFEO.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.container_top_l_one span{
-  color: #fff;
-  font-size: 35px;
+.container_top_l_one .navbar .navbar-container .hamburger-lines .line {
+  display: block;
+  height: 3px;
+  width: 100%;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
 }
 
 .container_top_l_one img{

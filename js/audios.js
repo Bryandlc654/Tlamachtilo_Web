@@ -262,3 +262,35 @@ sound7_9.src = "./sounds/level7/Rojo.mp3"
 
 var sound7_10 = new Audio();
 sound7_10.src = "./sounds/level7/Verde.mp3"
+
+
+/* NIVEL 8 */
+var sound8_1 = new Audio();
+sound8_1.src = "./sounds/level8/Uno.mp3";
+
+var sound8_2 = new Audio();
+sound8_2.src = "./sounds/level8/Dos.mp3"
+
+var sound8_3 = new Audio();
+sound8_3.src = "./sounds/level8/Tres.mp3"
+
+var sound8_4 = new Audio();
+sound8_4.src = "./sounds/level8/Cuatro.mp3"
+
+var sound8_5 = new Audio();
+sound8_5.src = "./sounds/level8/Cinco.mp3"
+
+var sound8_6 = new Audio();
+sound8_6.src = "./sounds/level8/Seis.mp3"
+
+var sound8_7 = new Audio();
+sound8_7.src = "./sounds/level8/Siete.mp3"
+
+var sound8_8 = new Audio();
+sound8_8.src = "./sounds/level8/Ocho.mp3"
+
+var sound8_9 = new Audio();
+sound8_9.src = "./sounds/level8/Nueve.mp3"
+
+var sound8_10 = new Audio();
+sound8_10.src = "./sounds/level8/Diez.mp3"
